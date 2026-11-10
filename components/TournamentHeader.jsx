@@ -113,8 +113,7 @@ export default function TournamentHeader() {
           {/* Stats */}
           <div className="flex items-center justify-center lg:justify-start gap-10 mt-8">
             {[
-              { value: "₹2700", label: "Entry Fee (Members)" },
-              { value: "₹2500", label: "Entry Fee (Non-Members)" },
+              { value: "₹1000", label: "Entry Fee" },
             ].map((stat) => (
               <div
                 key={stat.label}

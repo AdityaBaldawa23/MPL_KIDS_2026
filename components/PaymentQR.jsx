@@ -94,33 +94,13 @@ export default function PaymentQR() {
               className="text-sm"
               style={{ color: "rgba(232,245,233,0.7)" }}
             >
-              Registration Fee (For Members)
+              Registration Fee
             </span>
             <span
               className="text-xl font-bold"
               style={{ color: "#4ade80", fontFamily: "var(--font-accent)" }}
             >
-              ₹2700
-            </span>
-          </div>
-          <div
-            className="flex items-center justify-between p-3 rounded-xl"
-            style={{
-              background: "rgba(34,197,94,0.08)",
-              border: "1px solid rgba(34,197,94,0.2)",
-            }}
-          >
-            <span
-              className="text-sm"
-              style={{ color: "rgba(232,245,233,0.7)" }}
-            >
-              Registration Fee (For Non-Members)
-            </span>
-            <span
-              className="text-xl font-bold"
-              style={{ color: "#4ade80", fontFamily: "var(--font-accent)" }}
-            >
-              ₹2500
+              ₹1000
             </span>
           </div>
 

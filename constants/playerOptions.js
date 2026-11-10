@@ -5,7 +5,7 @@
  */
 
 // Standards 1 through 9 for tournament eligibility
-export const STANDARDS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+export const STANDARDS = [4, 5, 6, 7, 8, 9];
 
 export const PLAYER_ROLES = ["Batsman", "Bowler", "All Rounder"];
 
