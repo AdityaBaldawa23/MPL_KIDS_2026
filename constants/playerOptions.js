@@ -11,9 +11,9 @@ export const PLAYER_ROLES = ["Batsman", "Bowler", "All Rounder"];
 
 export const PLAYING_STYLES = [
   "Right Arm Batting",
-  "Right Arm Balling",
+  "Right Arm Bowling",
   "Left Arm Batting",
-  "Left Arm Balling",
+  "Left Arm Bowling",
 ];
 
 export const TSHIRT_SIZES = [
