@@ -6,9 +6,9 @@
  */
 const STYLES = [
   { value: "Right Arm Batting", icon: "🏏", desc: "Pure stroke maker" },
-  { value: "Right Arm Balling", icon: "⚡", desc: "Attack the stumps" },
+  { value: "Right Arm Bowling", icon: "⚡", desc: "Attack the stumps" },
   { value: "Left Arm Batting", icon: "🏏", desc: "Graceful Playmaker" },
-  { value: "Left Arm Balling", icon: "⚡", desc: "Pure Carnage with ball" },
+  { value: "Left Arm Bowling", icon: "⚡", desc: "Pure Carnage with ball" },
 ];
 
 export default function PlayingStyleSelector({ selected, onChange, error }) {
@@ -17,7 +17,7 @@ export default function PlayingStyleSelector({ selected, onChange, error }) {
       value === "Right Arm Batting" || value === "Left Arm Batting";
 
     const isBowling =
-      value === "Right Arm Balling" || value === "Left Arm Balling";
+      value === "Right Arm Bowling" || value === "Left Arm Bowling";
 
     // Remove if already selected
     if (selected.includes(value)) {
@@ -37,7 +37,7 @@ export default function PlayingStyleSelector({ selected, onChange, error }) {
     // If selecting bowling style
     if (isBowling) {
       updated = updated.filter(
-        (s) => s !== "Right Arm Balling" && s !== "Left Arm Balling",
+        (s) => s !== "Right Arm Bowling" && s !== "Left Arm Bowling",
       );
     }
 
